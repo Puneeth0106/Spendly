@@ -525,6 +525,67 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ------------------------------------------------------------------ */
+/* Terms page                                                          */
+/* ------------------------------------------------------------------ */
+
+.terms-header {
+    background: var(--paper-warm);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem;
+}
+
+.terms-header-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.terms-page-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+}
+
+.terms-page-subtitle {
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+}
+
+.terms-section {
+    padding: 4rem 2rem;
+}
+
+.terms-inner {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.terms-content {
+    color: var(--ink);
+}
+
+.terms-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    color: var(--ink);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+}
+
+.terms-content h2:first-child {
+    margin-top: 0;
+}
+
+.terms-content p {
+    margin-bottom: 1rem;
+    color: var(--ink-soft);
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
+
+/* ------------------------------------------------------------------ */
 /* Responsive                                                          */
 /* ------------------------------------------------------------------ */
 
